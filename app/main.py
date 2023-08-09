@@ -34,8 +34,9 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World!"}
+    return {"message": "Hello Brave New World!"}
 
+#new caption
 
 
 #my_posts = [{"title": "title of post 1", "content": "content of post 1", "id": 1}, {"title": "Favourite foods", "content": "Pizza", "id":2}]
